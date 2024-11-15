@@ -14,7 +14,7 @@ export default function About() {
             <div className="md:w-6/12 contentWrapper">
               <h2>About Us</h2>
               <p>
-                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with today's youthful spirit.
+                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with todays youthful spirit.
               </p>
             </div>
             <div className="md:w-6/12">
@@ -32,7 +32,7 @@ export default function About() {
             <div className="md:w-6/12 contentWrapper">
               <h2>Why Choose Us</h2>
               <p>
-                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with today's youthful spirit.
+                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with todays youthful spirit.
               </p>
             </div>
           </div>
