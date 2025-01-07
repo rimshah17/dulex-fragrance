@@ -1,45 +1,31 @@
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import Image from 'next/image';
+import InnerHeader from "../../components/InnerHeader";
+import Footer from "../../components/Footer";
+import InnerPageBanner from "../../components/InnerPageBanner";
+import AboutSectionIn from '../../components/about/AboutSectionIn';
+import WhyChooseUsAbout from '../../components/about/WhyChooseUsAbout';
+import MeetOurChef from '../../components/home/MeetOurChef';
+import Testimonials from '../../components/home/Testimonials';
+import MenuSection from '../../components/home/MenuSection';
 
-export default function About() {
-  return (
-    <>
-      <Header />
 
-      {/* About Us Section */}
-      <div className="aboutpageWrapper">
-        <section className="aboutSectionleft">
-          <div className="container mx-auto flex flex-wrap">
-            <div className="md:w-6/12 contentWrapper">
-              <h2>About Us</h2>
-              <p>
-                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with todays youthful spirit.
-              </p>
-            </div>
-            <div className="md:w-6/12">
-              <Image src="/img/about-img.jpg" alt="About Us Image" width={500} height={300} />
-            </div>
-          </div>
-        </section>
+export default function AboutPage() {
+    return (
+        <>
+        <InnerHeader/>
 
-        {/* Why Choose Us Section */}
-        <section className="aboutSectionleft">
-          <div className="container mx-auto flex flex-wrap">
-            <div className="md:w-6/12">
-              <Image src="/img/whychoose.jpg" alt="Why Choose Us" width={500} height={300} />
+        <InnerPageBanner  heading="Shop Details" breadcrumb="Menu" />
+       
+        <AboutSectionIn/>
+        <WhyChooseUsAbout/>
+            <div className="innerChef">
+                <MeetOurChef />
+                <Testimonials />
+                <MenuSection />
             </div>
-            <div className="md:w-6/12 contentWrapper">
-              <h2>Why Choose Us</h2>
-              <p>
-                Between strength and grace, boldness and elegance. Miss Dior Parfum embodies the Dior vision of youth and femininity. Francis Kurkdjian, Dior Perfume Creative Director, reinterprets the initial olfactory inspiration of Miss Dior, infusing it with todays youthful spirit.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
+            
+       
+        <Footer/>
+        </>
+    )
 
-      <Footer />
-    </>
-  );
 }
