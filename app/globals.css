@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +15,15 @@
 :root {
   --maincolor: rgba(255, 159, 13, 1);
 }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 /* styles/globals.css */
 body,
 p,
@@ -23,6 +33,7 @@ h3,
 h4,
 ul,
 input {
+<<<<<<< HEAD
   font-family: "Helvetica", sans-serif;
 }
 p,
@@ -60,6 +71,17 @@ span {
   width: 60%;
   justify-content: flex-start;
   margin-top: 20px !important;
+=======
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+}
+.logo h2 {
+  font-weight: 600;
+  font-size: 21px;
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 }
 
 .maidel h4 {
@@ -78,6 +100,7 @@ span {
   display: block;
 }
 
+<<<<<<< HEAD
 .maidel {
   overflow: hidden;
   position: relative;
@@ -98,6 +121,33 @@ span {
   height: 100%;
   width: 8px;
   left: 0;
+=======
+.footer .container img {
+  height: auto;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 50px 0;
+}
+.banner {
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+  padding-top: 120px;
+  margin-top: -100px;
+  padding-bottom: 90px;
+}
+.banner .container {
+  align-items: center;
+}
+
+.banner img {
+  object-fit: cover;
+  height: 420px;
+  border-radius: 10px;
+  border: 11px solid #fff;
+  margin: 0 auto;
+  display: block;
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 }
 .counterSection {
   background-image: url("/img/home/count_bg.png");
@@ -121,8 +171,15 @@ span {
 .processSection {
   background: url("/img/home/process.png") no-repeat;
 }
+<<<<<<< HEAD
 .imagCol {
   width: 40%;
+=======
+
+.aboutSection p {
+  color: #848484;
+  margin-bottom: 30px;
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 }
 .menuCol {
   width: 60%;
@@ -146,6 +203,7 @@ span {
 }
 .tagsMain {
   align-items: center;
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   margin-top: 0 !important;
@@ -172,6 +230,18 @@ span {
 .innerChef section .rounded-md.bg-black {
   background: white;
   color: #000 !important;
+=======
+}
+.aboutpageWrapper {
+  padding: 90px;
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+  padding-top: 160px;
+  margin-top: -100px;
+}
+
+.portfolio-wrapper {
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 }
 
 .grid.grid-cols-1.md\:grid-cols-2.gap-8.rounded-md bg-black {
@@ -183,7 +253,169 @@ span {
 .singleFaq {
   background: rgba(250, 247, 242, 1);
 }
+<<<<<<< HEAD
 @media (min-width: 1536px) {
+=======
+section.contantForm {
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+  padding-top: 120px;
+  margin-top: -100px;
+  padding-bottom: 50px;
+}
+
+form input,
+form textarea {
+  background: transparent;
+  border: 1px solid #f17d7d;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 11px;
+  border-radius: 10px;
+}
+
+form label {
+  display: none;
+}
+
+.form-wrapper label {
+  display: none;
+}
+.contantForm h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+nav.menu a {
+  margin: 0 30px !important;
+  color: #000;
+  text-decoration: none;
+}
+.prodctionSection {
+  padding: 50px 0;
+}
+.prodctionSection h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.bannerBg-home {
+  padding: 90px;
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+  padding-top: 160px;
+  margin-top: -80px;
+}
+.portfolioProductsection {
+  background: linear-gradient(to bottom, #ffa2c1, #fbfbfb);
+  padding-top: 120px;
+  margin-top: -80px;
+}
+.btn {
+  background: #9d1529 !important;
+  color: #fff;
+  padding: 10px 29px;
+  border: 0;
+  border-radius: 10px;
+}
+.menu a:hover {
+  color: #9d1529;
+}
+.rowCustom {
+  display: flex;
+}
+
+header .rowCustom {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  padding: 30px 0;
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.colmun-6 {
+  width: 50%;
+}
+
+.banner .rowCustom {
+  align-items: center;
+}
+.mainProduct-row {
+  display: flex;
+  text-align: center;
+}
+
+.sale {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 13px;
+  background: #ef4444;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.singleImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-wrpper {
+  padding: 10px;
+  position: relative;
+}
+
+.singleProduct {
+  box-shadow: 0 0 18px 0px #0000003d;
+  margin: 0 11px;
+  padding: 0 0 30px 0;
+  border-radius: 10px;
+}
+
+.linethoug {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.contentWrapper-proudct h3 {
+  margin-bottom: 10px;
+}
+
+.singleProduct .btn {
+  margin-top: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+
+.footer .container img {
+  height: auto;
+  margin-top: 10px;
+}
+.aboutSectionleft .rowCustom {
+  align-items: center;
+}
+.aboutSectionleft .rowCustom {
+  align-items: center;
+}
+form {
+  margin: 0 auto;
+  width: 40%;
+}
+/* responsive */
+@media (max-width: 1024px) {
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
   .container {
     max-width: 1320px;
   }
@@ -221,6 +453,7 @@ span {
     width: 5rem;
     margin-bottom: 10px;
   }
+<<<<<<< HEAD
 }
 
 @media (max-width: 1024px){
@@ -265,4 +498,70 @@ span {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important  ;
 }
 
+=======
+  .portfolio-wrapper img {
+    width: 49%;
+  }
+  .footer .container h2 {
+    font-size: 26px;
+  }
+ 
+
+  .form-wrapper .btn {
+    width: 100%;
+  }
+
+  .colmun-6 {
+    width: 100%;
+  }
+
+  .rowCustom {
+    flex-flow: row wrap;
+  }
+
+  .banner p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .banner h2 {
+    text-align: center;
+  }
+
+  .aboutSection {
+    padding: 50px 0;
+  }
+
+  .mainProduct-row {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .singleProduct {
+    margin-bottom: 30px;
+  }
+  form {
+    margin: 0 auto;
+    width: 60%;
+}
+}
+@media (max-width: 700px) {
+  nav.menu.flex.space-x-4 {
+    display: none;
+  }
+  .aboutpageWrapper .aboutSectionleft img {
+    height: auto;
+  }
+  .banner,.aboutpageWrapper,section.contantForm{
+    margin-top: -140px;
+  }
+  .logo {
+    padding-bottom: 20px;
+    
+}
+form {
+  margin: 0 auto;
+  width: 90%;
+}
+>>>>>>> 6ff6d2b382672a4ed12bead2fd8c7f695c9db6b7
 }

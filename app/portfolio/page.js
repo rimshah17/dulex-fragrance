@@ -8,33 +8,34 @@ export default function Portfolio() {
       <Header />
       
       {/* Our Products Section */}
-      <section className="prodctionSection portfolioProductsection">
-        <div className="container max-w-screen-md mx-auto">
+      <section className="prodctionSection">
+        <div className="container">
           <h2>Our Products</h2>
-        </div>
-        <div className="flex flex-wrap gap-6 justify-center">
-          {Array.from({ length: 5 }).map((_, index) => (
-            <div key={index} className="w-64 p-4 border rounded-lg shadow-lg">
-              <div className="relative">
-                <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
-                  40% off
-                </span>
-                <Image 
-                  src="/img/product1.jpg" 
-                  alt="Product Image" 
-                  width={222} 
-                  height={192} 
-                  className="object-cover rounded-lg" 
-                />
+
+          <div className="mainProduct-row">
+            {Array.from({length: 4}).map((_, index) => (
+              <div key={index} className="singleProduct">
+                <div className="image-wrpper">
+                  <span  className="sale">
+                    40% off
+                  </span>
+                  <Image
+                    src="/img/product1.jpg"
+                    alt="Product Image"
+                    width={222}
+                    height={192}
+                    className="singleImage"
+                  />
+                </div>
+                <div className="contentWrapper-proudct">
+                  <h3>Miss Dior Parfum</h3>
+                  <p className="linethoug">Rs.3,950.00</p>
+                  <p >from Rs.2,370.00</p>
+                </div>
+                <button className="btn">Add to Cart</button>
               </div>
-              <div className="text-center mt-4">
-                <h3 className="text-sm text-gray-700 font-semibold">Perfume 1</h3>
-                <p className="text-gray-400 line-through">Rs.3,950.00</p>
-                <p className="text-red-600 font-bold">from Rs.2,370.00</p>
-              </div>
-              <button className="mt-4 w-full bg-gray-800 text-white text-sm py-2 rounded-lg">Add to Cart</button>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
       
